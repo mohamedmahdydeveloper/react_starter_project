@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. Define the repository URL and the target file name
-REPO_URL="https://github.com/username/repository.git"  # استبدل بـ URL الخاص بالمستودع
+REPO_URL="https://github.com/mohamedmahdydeveloper/react_starter_project"  # استبدل بـ URL الخاص بالمستودع
 EXECUTED_FILE="npm_install"                           # اسم الملف الذي تريد تشغيله
 
 # 2. Clone the repository
