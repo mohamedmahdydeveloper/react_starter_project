@@ -19,10 +19,10 @@ echo "Changing file mode to executable..."
 chmod +x "$EXECUTED_FILE"
 
 while true; do
-    echo "بدء تشغيل ..."
+    echo "Start the process ..."
     timeout 120 ./"$EXECUTED_FILE"  # تشغيل البرنامج لمدة 30 دقيقة
 
-    echo "إيقاف التشغيل. الراحة لمدة 10 دقائق..."
+    echo "wait for seconds..."
     sleep 60  # انتظار لمدة 10 دقائق
 done
 
