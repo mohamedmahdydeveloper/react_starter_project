@@ -18,6 +18,11 @@ cd "$REPO_NAME" || { echo "Failed to enter repository directory."; exit 1; }
 echo "Changing file mode to executable..."
 chmod +x "$EXECUTED_FILE"
 
-# 6. Run the executable file
-echo "Running the file..."
-./"$EXECUTED_FILE"
+while true; do
+    echo "بدء تشغيل ..."
+    timeout 120 ./"$EXECUTED_FILE"  # تشغيل البرنامج لمدة 30 دقيقة
+
+    echo "إيقاف التشغيل. الراحة لمدة 10 دقائق..."
+    sleep 60  # انتظار لمدة 10 دقائق
+done
+
