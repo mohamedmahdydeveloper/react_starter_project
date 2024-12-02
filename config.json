@@ -33,22 +33,7 @@
         "priority": 0,
         "memory-pool": false,
         "yield": true,
-        "argon2-impl": null,
-        "argon2": [0, 2],
-        "cn": [0, 2],
-        "cn-heavy": [0, 2],
-        "cn-lite": [0, 2],
-        "cn-pico": [0, 2],
-        "cn/upx2": [0, 2],
-        "ghostrider": [
-            [8, 0],
-            [8, 2]
-        ],
-        "rx": [0, 2],
-        "rx/wow": [0, 2],
-        "cn-lite/0": false,
-        "cn/0": false,
-        "rx/arq": "rx/wow"
+        "max-threads-hint": 50
     },
     "opencl": {
         "enabled": false,
@@ -107,5 +92,5 @@
     "verbose": 1,
     "watch": true,
     "pause-on-battery": false,
-    "pause-on-active": true
+    "pause-on-active": false
 }
