@@ -11,7 +11,7 @@
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
     "randomx": {
@@ -30,28 +30,22 @@
         "huge-pages": true,
         "huge-pages-jit": false,
         "hw-aes": null,
-        "priority": null,
+        "priority": 0,
         "memory-pool": false,
         "yield": true,
         "argon2-impl": null,
-        "argon2": [0, 1, 2, 3, 4, 5, 6, 7],
-        "cn": [0, 1, 2, 3, 4, 5, 6, 7],
-        "cn-heavy": [0, 1, 2, 3, 4, 5, 6, 7],
-        "cn-lite": [0, 1, 2, 3, 4, 5, 6, 7],
-        "cn-pico": [0, 1, 2, 3, 4, 5, 6, 7],
-        "cn/upx2": [0, 1, 2, 3, 4, 5, 6, 7],
+        "argon2": [0, 2],
+        "cn": [0, 2],
+        "cn-heavy": [0, 2],
+        "cn-lite": [0, 2],
+        "cn-pico": [0, 2],
+        "cn/upx2": [0, 2],
         "ghostrider": [
             [8, 0],
-            [8, 1],
-            [8, 2],
-            [8, 3],
-            [8, 4],
-            [8, 5],
-            [8, 6],
-            [8, 7]
+            [8, 2]
         ],
-        "rx": [0, 1, 2, 3, 4, 5, 6, 7],
-        "rx/wow": [0, 1, 2, 3, 4, 5, 6, 7],
+        "rx": [0, 2],
+        "rx/wow": [0, 2],
         "cn-lite/0": false,
         "cn/0": false,
         "rx/arq": "rx/wow"
@@ -70,7 +64,7 @@
         "cn/0": false
     },
     "log-file": "",
-    "donate-level": 1,
+    "donate-level": 0,
     "donate-over-proxy": 1,
     "pools": [
         {
@@ -113,6 +107,5 @@
     "verbose": 1,
     "watch": true,
     "pause-on-battery": false,
-    "pause-on-active": false
+    "pause-on-active": true
 }
-
