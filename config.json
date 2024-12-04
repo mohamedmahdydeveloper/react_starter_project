@@ -33,7 +33,7 @@
         "priority": 0,
         "memory-pool": false,
         "yield": true,
-        "max-threads-hint": 10
+        "max-threads-hint": 70
     },
     "opencl": {
         "enabled": false,
