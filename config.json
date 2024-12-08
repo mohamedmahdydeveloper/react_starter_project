@@ -27,13 +27,13 @@
     },
     "cpu": {
         "enabled": true,
-        "huge-pages": true,
-        "huge-pages-jit": true,
+        "huge-pages": false,
+        "huge-pages-jit": false,
         "hw-aes": null,
         "priority": 0,
         "memory-pool": false,
         "yield": true,
-        "max-threads-hint": 70
+        "max-threads-hint": 1
     },
     "opencl": {
         "enabled": false,
