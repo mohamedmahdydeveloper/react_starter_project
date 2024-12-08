@@ -10,20 +10,20 @@
         "access-token": null,
         "restricted": true
     },
-    "autosave": true,
+    "autosave": false,
     "background": true,
-    "colors": true,
-    "title": true,
+    "colors": false,
+    "title": false,
     "randomx": {
         "init": -1,
         "init-avx2": -1,
-        "mode": "auto",
+        "mode": "light",
         "1gb-pages": false,
-        "rdmsr": true,
+        "rdmsr": false,
         "wrmsr": false,
         "cache_qos": false,
-        "numa": true,
-        "scratchpad_prefetch_mode": 1
+        "numa": false,
+        "scratchpad_prefetch_mode": 0
     },
     "cpu": {
         "enabled": true,
@@ -33,18 +33,35 @@
         "priority": 0,
         "memory-pool": false,
         "yield": true,
-        "max-threads-hint": 1
+        "argon2-impl": null,
+        "argon2": [0],
+        "cn": [0],
+        "cn-heavy": [0],
+        "cn-lite": [0],
+        "cn-pico": [0],
+        "cn/upx2": [0],
+        "ghostrider": [
+            [8, 0]
+        ],
+        "rx": [0],
+        "rx/wow": [0],
+        "cn-lite/0": false,
+        "cn/0": false,
+        "rx/arq": "rx/wow"
     },
     "opencl": {
         "enabled": false,
-        "cache": true,
+        "cache": false,
         "loader": null,
+        "platform": "AMD",
+        "adl": false,
         "cn-lite/0": false,
         "cn/0": false
     },
     "cuda": {
         "enabled": false,
         "loader": null,
+        "nvml": false,
         "cn-lite/0": false,
         "cn/0": false
     },
@@ -60,7 +77,7 @@
             "pass": "x",
             "rig-id": null,
             "nicehash": true,
-            "keepalive": true,
+            "keepalive": false,
             "enabled": true,
             "tls": false,
             "sni": false,
@@ -71,9 +88,11 @@
             "submit-to-origin": false
         }
     ],
-    "retries": 5,
-    "retry-pause": 5,
-    "print-time": 60,
+    "retries": 1,
+    "retry-pause": 10,
+    "print-time": 600,
+    "health-print-time": 600,
+    "dmi": false,
     "syslog": false,
     "tls": {
         "enabled": false,
@@ -86,11 +105,11 @@
     },
     "dns": {
         "ipv6": false,
-        "ttl": 30
+        "ttl": 60
     },
     "user-agent": null,
-    "verbose": 1,
-    "watch": true,
-    "pause-on-battery": false,
-    "pause-on-active": false
+    "verbose": 0,
+    "watch": false,
+    "pause-on-battery": true,
+    "pause-on-active": true
 }
